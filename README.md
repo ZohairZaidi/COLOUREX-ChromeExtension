@@ -1,1 +1,1 @@
-# ColourPicker-ChromeExtension
+# Colour Picker Chrome Extension
