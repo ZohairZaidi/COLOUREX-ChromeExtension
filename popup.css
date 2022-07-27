@@ -1,0 +1,47 @@
+body {
+    background-color: #89cff0;
+    color: #EE4E34;
+    font-size: 26px;
+    font-family: "monospace","Monaco";
+    font-weight:900;
+}
+.wrapper {
+    width: 300px;
+    text-align: center;
+}
+.changeColorBtn {
+    background: #EE4E34;
+    border-radius: 999px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: "monospace","Lucida Console";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+}
+.colorGrid {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+}
+.selectedColor {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.colorValue {
+    margin-left: 5px;
+    font-weight: bold;
+}
